@@ -1,6 +1,6 @@
 const express = require('express');
 const db = require('./db'); // Import the database connection module
-
+const db = require('./dbu');
 const ejs = require('ejs');
 const indexRouter = require('./routes/index');
 const loadRouter = require('./routes/load');
